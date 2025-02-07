@@ -1,0 +1,22 @@
+Suppose two inputs A and B;
+Basic and most typical operations with the two inputs:
+ 1. A+B - add
+ 2. A-B - subtract
+ 3. A&B - and
+ 4. A|B - or 
+ 5. AxorB
+ 6. A<<2 - sll
+ 7. A>>2 - srl
+ 8. A<B - slt 
+
+ ALU_op as the control signal; 8 operations => 3 bits per ALU opcode
+ => 000 add;
+    001 sub;
+    010 and;
+    011 or;
+    100 xor;
+    101 sll;
+    110 srl;
+    111 slt;
+
+ This example considers 16 bit inputs
