@@ -61,11 +61,11 @@ To run this project, you'll need the following tools:
    iverilog -o alu_tb alu.v alutlb.v
 2. **Run the simulation**:
    After compiling, execute the simulation with:
-   ``bash
+   ```bash
    vvp alu_tb
 3. **View the waveform output**:
    Open the alu.vcd file with GTKWave to visualize the simulation results:
-   ``bash
+   ```bash
    gtkwave alu.vcd
 
 ## Execution
